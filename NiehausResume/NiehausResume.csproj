@@ -68,6 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Explain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Explain.Designer.cs">
+      <DependentUpon>Explain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Explain.resx">
+      <DependentUpon>Explain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +183,7 @@
     <None Include="bin\Pictures\CNIcon.ico" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Pictures\Resize.png" />
     <Content Include="CNIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

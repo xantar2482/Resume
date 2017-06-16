@@ -87,7 +87,12 @@ namespace NiehausResume.Properties {
         ///Age: 34
         ///Address: 325 Nottingham Dr Marthassville Mo, 63357
         ///
-        ///Education: UMSL | Undergraduate BS Information Systems.
+        ///Education: UMSL | Undergraduate BS Information Systems
+        ///
+        ///General:
+        ///	I started programming at UMSL about a year and a half ago.  I fell in love with it and I want to start a career in programming or something related.
+        ///
+        ///	I am able to handle stress very well.  I have an extensive work history in high stress environments.  I learned to use and communicate with team members to mimimize stres [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string AboutMeSection {
             get {
@@ -147,9 +152,10 @@ namespace NiehausResume.Properties {
         /// <summary>
         ///   Looks up a localized string similar to - I am married and have two daughters agess 4 and 6
         ///
-        ///- My oldest has a learning disability so my time off work is devoted to teaching her skills
+        ///- My oldest has a learning disability, she is very smart but has struggled in her first year at school.  
         ///
         ///- We live in Lake Sherwood MO 
+        ///
         ///.
         /// </summary>
         internal static string FamilySection {
@@ -176,6 +182,16 @@ namespace NiehausResume.Properties {
         internal static string HobbiesSection {
             get {
                 return ResourceManager.GetString("HobbiesSection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Resize {
+            get {
+                object obj = ResourceManager.GetObject("Resize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
